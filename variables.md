@@ -1,8 +1,13 @@
 # Variables
 Variables are the containers for storing values or expressions
+#### Example
+```js
+section = "3U"
+console.log(section)
+````
 ## ⚖️ Rules for js variables
-- They are case sensitive
-- Must start with a letter or an underscore
+- Case sensitive
+- Must start with an an alphabet or underscore
 - Cannot start with a number
 - Cannot use reserved words as variables
 #### Here are few examples:
@@ -18,11 +23,11 @@ There are three methods of declaring a variable in js
 - const keyword
 - var keyword
 
-|Keyword|Access|Assignment|
-|-|-|-|
-|let|{...}|Reassignable|
-|const|{...}|Final|
-|var|function|Reassignable|
+|Keyword|Access|Assignment|Initialise|
+|-|-|-|-|
+|let|{...}|Reassignable|Optional|
+|const|{...}|Final|Required|
+|var|function|Reassignable|Optional|
 
 #### Reassignment
 ```js
