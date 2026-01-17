@@ -20,7 +20,7 @@ Datatypes are the type of data a variable can store
 |Function|A block of code||
 |Date|object for handling dates and times|`12/10/200`|
 
-### Dynamic typing
+### 🎭 Dynamic typing
 ```js
 let data = 42;      // data is a Number
 data = "Forty-two"; // data is now a String
