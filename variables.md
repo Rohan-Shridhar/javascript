@@ -55,3 +55,6 @@ console.log(functionVariable); //This works
 #### Note
 - If you assign values to variables that have not yet been declared, the variables will automatically be declared.
 - "var" has some confusing behaviors regarding scope and hoisting, so modern developers generally avoid it in favor of let and const.
+<br>
+<a href="introduction-to-js.md">previous</a>
+<p align=right><a href="datatype.md">next</a></p>
