@@ -26,3 +26,6 @@ let data = 42;      // data is a Number
 data = "Forty-two"; // data is now a String
 data = true;        // data is now a Boolean
 ````
+<br>
+<a href="variables.md">previous</a>
+<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
