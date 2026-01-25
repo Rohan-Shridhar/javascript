@@ -36,7 +36,7 @@ data = true;        // data is now a Boolean
 |Array|A list of values|`[1,2,3]`|
 |Function|A block of code||
 
-### 1. Object
+### 📦 Object
 Object is a real world entity with certain properties.
 It is a collection of key-value pairs that specify the object.
 ```js
@@ -54,7 +54,7 @@ Accessing the object properties is possible in two methods:
 console.log(person.name);// Dot notation
 console.log(person["age"]);// Bracket notation
 ````
-Note:
+If the property to be accessed is determined during run-time, using dot notation won't do the job.
 ```js
 let selection = "name";
 console.log(person.selection);// This doesn't work
