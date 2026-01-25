@@ -5,4 +5,5 @@
 |-|-|
 |Variables|[Learn](variables.md)|
 |Datatypes|[Learn](datatype.md)|
+|Arrays|[Learn](array.md)|
 #### I am still learning; sorry if u dont see some topics🥀
