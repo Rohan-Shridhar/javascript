@@ -11,6 +11,8 @@ console.log(section)
 - Must start with an an alphabet or underscore
 - Cannot start with a number
 - Cannot use reserved words as variables
+- Should be meaningful
+- Cannot contain space or hyphen (-)
 #### Here are few examples:
 - score ✅
 - _id ✅
@@ -52,9 +54,14 @@ count = 1 //This works
 console.log(blockVariable);    //This doesn't work
 console.log(functionVariable); //This works
 ````
+### Declearing multiple variables
+```js
+// Both works
+let name="Rohan" , role="Student";
 
-<img width="1920" height="1080" alt="Screenshot 2025-12-31 072603" src="https://github.com/user-attachments/assets/59202ef5-2ff4-4c59-93ea-deb398a75545" />
-
+let name="Rohan";
+let role="Student";   
+````
 
 #### Note
 - If you assign values to variables that have not yet been declared, the variables will automatically be declared.
