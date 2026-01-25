@@ -63,4 +63,4 @@ console.log(person[selection]);// This works
 
 <br>
 <a href="variables.md">previous</a>
-<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
+<p align=right><a href="array.md">next</a></p>
