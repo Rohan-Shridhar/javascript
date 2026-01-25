@@ -35,8 +35,31 @@ data = true;        // data is now a Boolean
 |Object|A collection of properties|`{ name: "John", age: 30 }`|
 |Array|A list of values|`[1,2,3]`|
 |Function|A block of code||
-|Date|object for handling dates and times|`12/10/200`|
 
+### 1. Object
+Object is a real world entity with certain properties.
+It is a collection of key-value pairs that specify the object.
+```js
+let person = {
+    name: "Rohan",
+    age: 22
+};
+// Here, person is an object with two properties, name and age which specifies that person.
+````
+#### Accessing properties
+Accessing the object properties is possible in two methods:
+- Dot notation
+- Bracket notation
+```js
+console.log(person.name);// Dot notation
+console.log(person["age"]);// Bracket notation
+````
+Note:
+```js
+let selection = "name";
+console.log(person.selection);// This doesn't work
+console.log(person[selection]);// This works
+````
 
 <br>
 <a href="variables.md">previous</a>
