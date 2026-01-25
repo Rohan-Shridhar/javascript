@@ -1,5 +1,6 @@
 # Variables
 Variables are the containers for storing values or expressions
+They are used to store data temporarily in the computer
 #### Example
 ```js
 section = "3U"
@@ -51,6 +52,9 @@ count = 1 //This works
 console.log(blockVariable);    //This doesn't work
 console.log(functionVariable); //This works
 ````
+
+<img width="1920" height="1080" alt="Screenshot 2025-12-31 072603" src="https://github.com/user-attachments/assets/59202ef5-2ff4-4c59-93ea-deb398a75545" />
+
 
 #### Note
 - If you assign values to variables that have not yet been declared, the variables will automatically be declared.
