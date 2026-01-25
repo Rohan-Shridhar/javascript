@@ -1,5 +1,6 @@
 # Variables
 Variables are the containers for storing values or expressions
+They are used to store data temporarily in the computer
 #### Example
 ```js
 section = "3U"
@@ -10,6 +11,8 @@ console.log(section)
 - Must start with an an alphabet or underscore
 - Cannot start with a number
 - Cannot use reserved words as variables
+- Should be meaningful
+- Cannot contain space or hyphen (-)
 #### Here are few examples:
 - score ✅
 - _id ✅
@@ -50,6 +53,14 @@ count = 1 //This works
 
 console.log(blockVariable);    //This doesn't work
 console.log(functionVariable); //This works
+````
+### Declearing multiple variables
+```js
+// Both works
+let name="Rohan" , role="Student";
+
+let name="Rohan";
+let role="Student";   
 ````
 
 #### Note
