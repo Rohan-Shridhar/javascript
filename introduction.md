@@ -7,4 +7,9 @@
 |Datatypes|[Learn](datatype.md)|
 |Objects|[Learn](object.md)|
 |Arrays|[Learn](array.md)|
-#### I am still learning; sorry if u dont see some topics🥀
+>[!note]
+> #### I am still learning; sorry if u dont see some topics🥀
+
+<p align=center>
+  <a href="ABOUT.md"><-- Back to about section</a>
+</p>
