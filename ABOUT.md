@@ -19,7 +19,7 @@ Basics of javascript like variables, operators, functions etc that are needed as
 >   ````
   
 **Once you have the files ready, you need to open the html file in your browser and proceed with editing the js file**
-> - Install the extension called Live server in vs code
+> - Install the extension called [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in vs code
 > - Right click on `index.html`
 > - Select Open with live server
 > - Right click on the webpage in your browser
@@ -32,6 +32,7 @@ Basics of javascript like variables, operators, functions etc that are needed as
 > **You can also execute js commands directly in console of any webpage**
 > <img width="689" height="223" alt="image" src="https://github.com/user-attachments/assets/c804a0b8-ed5b-4bdd-bf41-96005785505f" />
 
+#### This repository is licensed under [MIT License](LICENSE.md)
 <p align=center>
   <a href="introduction.md">Start Learning --></a>
 </p>
