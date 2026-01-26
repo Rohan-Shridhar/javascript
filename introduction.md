@@ -7,4 +7,10 @@
 |Datatypes|[Learn](datatype.md)|
 |Objects|[Learn](object.md)|
 |Arrays|[Learn](array.md)|
-#### I am still learning; sorry if u dont see some topics🥀
+>[!note]
+> #### I am still learning; sorry if u dont see some topics🥀
+
+
+>[!caution]
+> #### This isn’t a complete JavaScript example, just beginner-level notes 🐣
+
