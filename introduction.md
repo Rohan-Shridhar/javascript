@@ -10,7 +10,6 @@
 >[!note]
 > #### I am still learning; sorry if u dont see some topics🥀
 
-
->[!caution]
-> #### This isn’t a complete JavaScript example, just beginner-level notes 🐣
-
+<p align=center>
+  <a href="ABOUT.md">Back to about document</a>
+</p>
