@@ -11,5 +11,5 @@
 > #### I am still learning; sorry if u dont see some topics🥀
 
 <p align=center>
-  <a href="ABOUT.md">Back to about document</a>
+  <a href="ABOUT.md"><-- Back to about section</a>
 </p>
