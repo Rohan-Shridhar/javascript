@@ -10,7 +10,7 @@ Basics of javascript like variables, operators, functions etc that are needed as
 > [!tip]
 > **Even if you don't want to code and just learn, it is fine :)**
 
-**No need to start a server in your system, you can follow these steps to execute simple js commands**
+**No server setup is required—you can run simple JavaScript commands by following these steps.**
 > - Create a html file, say `index.html`
 > - Create a js file beside it, say `script.js`
 > - Connect the js file to the html file via script tag
@@ -18,8 +18,9 @@ Basics of javascript like variables, operators, functions etc that are needed as
 >       <script src="script.js"></script>
 >   ````
   
-**Once you have the files ready, you need to open the html file in your browser and proceed with editing the js file**
-> - Install the extension called [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in vs code
+**With the files set up, open the HTML file in your browser and move on to editing the JS file.**
+> - Install [VS code](https://share.google/y2A0gAEhuLgAUDWSI) text editor on your system.
+> - Install the extension called [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS code.
 > - Right click on `index.html`
 > - Select Open with live server
 > - Right click on the webpage in your browser
