@@ -14,14 +14,14 @@ let mixed = [42, "Hello", true, { name: "Gemini" }];
 ````
 ## ⚙️ Operations on array
 ### 📥 Inserting array elements
-|method|descrition|example|
+|method|description|example|
 |-|-|-|
 |Direct|simply declare a new element at the end|`fruits[4] = "Blueberry"`|
 |push|adds one or more elements to the very end|`fruits.push("Blueberry")`|
 |splice|add element anywhere|`fruits.splice(1,0,"Blueberry")`|
 |unshift|adds elements to the beginning|`fruits.unshift("Blueberry")`|
 ### 🗑️ Deleting array elements
-|method|descrition|example|
+|method|description|example|
 |-|-|-|
 |pop|deletes last element|`fruits.pop()`|
 |splice|deletes anywhere|`fruits.splice(1,1)`|
