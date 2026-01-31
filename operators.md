@@ -64,6 +64,21 @@ undefined + 1 --> NaN
 |<=|Less than or equal to|1 <= 1|true|
 |>=|Greater than or equal to|10 >= 20|false|
 
+## 🧠 Logical operators
+
+|Operator|Description|Example|
+|:-:|:-:|:-:|
+|AND &&|True if all conditions are true|(x == 3)&&(y > 0)|
+|OR \|\||True if any one of all conditions is true|(x == 3)\|\|(y > 0)|
+|NOT !|Toggles the condition result|!(x == 3)|
 <br>
+
+## ❓Conditionsl operator
+Syntax:\
+_variable_ **=** _condition_ **?** _value_if_true_ **:** _value_if_false_
+#### Example
+```js
+isAdult = (age >= 18) ? "Yes" : "No" ;
+````
 <a href="array.md">previous</a>
 <p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
