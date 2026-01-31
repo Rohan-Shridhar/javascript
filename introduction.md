@@ -7,6 +7,7 @@
 |Datatypes|[Learn](datatype.md)|
 |Objects|[Learn](object.md)|
 |Arrays|[Learn](array.md)|
+|Operators|[Learn](operators.md)|
 >[!note]
 > #### I am still learning; sorry if u dont see some topics🥀
 
