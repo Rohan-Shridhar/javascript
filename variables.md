@@ -70,5 +70,5 @@ let role="Student";
 > ````
 > - "var" has some confusing behaviors regarding scope and hoisting, so modern developers generally avoid it in favor of let and const.
 <br>
-<a href="introduction-to-js.md">previous</a>
+<a href="introduction.md">previous</a>
 <p align=right><a href="datatype.md">next</a></p>
