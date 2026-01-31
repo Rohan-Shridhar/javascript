@@ -38,3 +38,32 @@ With mixed data types, the + operator causes JavaScript to run through a set seq
 > Convert into Numeric type and add\
 > If not possible to even convert into number\
 > return NaN
+
+#### Illustraction of + operator
+```js
+[] + 1 --> "" + 1 --> "" + "1" --> "1"
+"Hi" + 1 --> "Hi" + "1" --> "Hi1"
+true + false --> 1 + 0 --> 1
+true + "1" --> "true" + "1" --> "true1"
+true + 1 --> 1 + 1 --> 2
+null + 1 --> 0 + 1 --> 1
+undefined + 1 --> NaN
+````
+> [!note]
+> Other arithmetic operators try to convert all other types into numeric. Ex: "5" - 5 --> 0
+
+## ⚖️Comparison operators
+
+|Operator|Description|Example|Result|
+|:-:|:-:|:-:|:-:|
+|==|equal to|true == 1|true|
+|===|exactly equal to|true === 1|false|
+|!=|not equal to|true != 1|false|
+|<|Less than|1 < 3|true|
+|>|Greater than|4 > 5|false|
+|<=|Less than or equal to|1 <= 1|true|
+|>=|Greater than or equal to|10 >= 20|false|
+
+<br>
+<a href="array.md">previous</a>
+<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
