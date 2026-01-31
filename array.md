@@ -14,14 +14,14 @@ let mixed = [42, "Hello", true, { name: "Gemini" }];
 ````
 ## ⚙️ Operations on array
 ### 📥 Inserting array elements
-|method|descrition|example|
+|method|description|example|
 |-|-|-|
 |Direct|simply declare a new element at the end|`fruits[4] = "Blueberry"`|
 |push|adds one or more elements to the very end|`fruits.push("Blueberry")`|
 |splice|add element anywhere|`fruits.splice(1,0,"Blueberry")`|
 |unshift|adds elements to the beginning|`fruits.unshift("Blueberry")`|
 ### 🗑️ Deleting array elements
-|method|descrition|example|
+|method|description|example|
 |-|-|-|
 |pop|deletes last element|`fruits.pop()`|
 |splice|deletes anywhere|`fruits.splice(1,1)`|
@@ -76,5 +76,5 @@ let finalsum = prices
               .reduce((sum,price) => {return sum+price} , 0); // Calculates the sum- 1105.5
 ````
 <br>
-<a href="datatype.md">previous</a>
-<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
+<a href="object.md">previous</a>
+<p align=right><a href="operators.md">next</a></p>
