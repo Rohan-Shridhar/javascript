@@ -76,5 +76,5 @@ let finalsum = prices
               .reduce((sum,price) => {return sum+price} , 0); // Calculates the sum- 1105.5
 ````
 <br>
-<a href="datatype.md">previous</a>
-<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
+<a href="object.md">previous</a>
+<p align=right><a href="operators.md">next</a></p>
