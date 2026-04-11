@@ -81,4 +81,4 @@ _variable_ **=** _condition_ **?** _value_if_true_ **:** _value_if_false_
 isAdult = (age >= 18) ? "Yes" : "No" ;
 ````
 <a href="array.md">previous</a>
-<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
+<p align=right><a href="function.md">next</a></p>
