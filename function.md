@@ -180,3 +180,6 @@ function add(a, b) { return a + b; }
 ---
 
 > **Remember:** Write once, use many times. That's the power of functions! 💪😀
+
+<a href="operators.md">previous</a>
+<p align=right><a href="https://github.com/Rohan-Shridhar/javascript">finish</a></p>
