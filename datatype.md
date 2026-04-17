@@ -36,6 +36,12 @@ data = true;        // data is now a Boolean
 |Array|A list of values|`[1,2,3]`|
 |Function|A block of code||
 
+### typeof keyword
+typeof keyword is used to check the data type of a variable
+```js
+console.log(typeof data);
+````
+
 <br>
 <a href="variables.md">previous</a>
 <p align=right><a href="object.md">next</a></p>
