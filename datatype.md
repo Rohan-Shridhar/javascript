@@ -63,7 +63,7 @@ Number("123go") // NaN
 ### Convert to Boolean
 ```js
 Boolean(0) // false
-!!"Hello" // true
+Boolean("Hello") // true
 ````
 
 <br>
