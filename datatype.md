@@ -36,10 +36,34 @@ data = true;        // data is now a Boolean
 |Array|A list of values|`[1,2,3]`|
 |Function|A block of code||
 
+## 🔀 Type conversion
+ Explicitly convert varaible from one datatype to another.  
+ Eg: String -> Number, Boolean -> String
 ### typeof keyword
 typeof keyword is used to check the data type of a variable
 ```js
-console.log(typeof data);
+let data = 10;
+console.log(typeof data); //Number
+````
+
+JS has a bunch of built-in ways to convert types. Think of them in 3 buckets: string, number, boolean  
+
+### Convert to string
+```js
+String(123) // "123"
+(true).toString // "true"
+````
+### Convert to Number
+```js
+Number("123") // 123
+praseInt("456abc") // 456
+**NOTE**
+Number("123go") // NaN
+````
+### Convert to Boolean
+```js
+Boolean(0) // false
+!!"Hello" // true
 ````
 
 <br>
