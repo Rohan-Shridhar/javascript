@@ -26,4 +26,4 @@ console.log(person["age"]);// Bracket notation
 
 <br>
 <a href="datatype.md">previous</a>
-<p align=right><a href="array.md">next</a></p>
+<p align=right><a href="Math_object.md">next</a></p>
