@@ -49,3 +49,7 @@ console.log(Math.sign(9)) // 1
 ````
 >[!note]
 >You can assign numbers to variables and pass variables to methods instead.
+
+<br>
+<a href="object.md">previous</a>
+<p align=right><a href="array.md">next</a></p>
