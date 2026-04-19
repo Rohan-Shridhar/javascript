@@ -1,5 +1,5 @@
 # Operators
-Operatoes are symbols used to execute certian operations represented by it.
+Operators are symbols used to execute certian operations represented by it.
 ## 🧮 Arithmetic operators
 Consider `y = 5` 
 |Operator|Example|Result|Description|
@@ -31,12 +31,12 @@ txt3=txt1+txt2; // What a very nice day
 ````
 
 With mixed data types, the + operator causes JavaScript to run through a set sequence of **type conversions**  
-> If Object/Array is present -> Convert into primitive\
->     If not\
-> If String is present -> Convert into String and concatenate\
-> IF not\
+> IF String is present -> Convert into String and concatenate\
+> IF NOT\
+> IF Object/Array is present -> Convert into primitive\
+> If NOT\
 > Convert into Numeric type and add\
-> If not possible to even convert into number\
+> If NOT possible to even convert into number\
 > return NaN
 
 #### Illustraction of + operator
@@ -73,7 +73,7 @@ undefined + 1 --> NaN
 |NOT !|Toggles the condition result|!(x == 3)|
 <br>
 
-## ❓Conditionsl operator
+## ❓Conditional operator
 Syntax:\
 _variable_ **=** _condition_ **?** _value_if_true_ **:** _value_if_false_
 #### Example
