@@ -1,6 +1,8 @@
 # ...................................Let's learn together..................................
 
-<p align=center><img src="https://github.com/user-attachments/assets/1850d32b-e503-4169-b2fe-7a488c3f89df" width=325><br><br>
+<p align=center>
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/b2a7f992-0106-48c0-9e12-46a86c20ddd2" /><br><br>
 <a href="ABOUT.md">
   Start now ->
-</a></p>
+</a>
+</p>
