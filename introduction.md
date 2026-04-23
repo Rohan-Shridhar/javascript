@@ -9,6 +9,9 @@
 |Math Object|[Learn](Math_object.md)|
 |Arrays|[Learn](array.md)|
 |Operators|[Learn](operators.md)|
+|Functions|[Learn](function.md)|
+|Control statements|[Learn](controlstatements.md)|
+
 >[!note]
 > #### I am still learning; sorry if u dont see some topics🥀
 
