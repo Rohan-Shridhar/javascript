@@ -1,14 +1,9 @@
-# JavaScript Functions 🚀
+# JavaScript Functions
 
-> A simple guide for beginners — if you know basic math, you can learn this!
 
----
+## ❓ What is a Function?
 
-## What is a Function?
-
-A function is a **set of instructions** you write once and use many times.
-
-Think of it like a **vending machine** — you press a button (call the function), it does its job, and gives you something back.
+A function is a set of instructions written once and used many times.  
 
 ```javascript
 function sayHi() {
@@ -21,47 +16,44 @@ sayHi(); // Hi! (use it again!)
 
 ---
 
-## 3 Ways to Write a Function
+## 📋 Ways to Write a Function
 
-### 1. Function Declaration
+### 1. Function Declaration  
+`function func_name(params) { statements }`  
+#### Example
 ```javascript
 function greet(name) {
   console.log("Hi, " + name + "!");
 }
-
-greet("Vivek"); // Hi, Vivek!
-```
+````
 
 ### 2. Function Expression
+`const func_name = function(params) { statements };`  
+#### Example
 ```javascript
 const greet = function(name) {
   console.log("Hi, " + name + "!");
 };
-
-greet("Priya"); // Hi, Priya!
 ```
 
-### 3. Arrow Function ⚡ (Modern & Short)
+### 3. Arrow Function (Modern & Short)
+`const func_name = (params) => { statements };`  
+#### Example
 ```javascript
-const greet = (name) => {
-  console.log("Hi, " + name + "!");
-};
-
-// Even shorter (one line):
-const greet = (name) => console.log("Hi, " + name + "!");
-
-greet("Shankar"); // Hi, Shanker!
+const greet = (name) => { console.log("Hi, " + name + "!"); };
 ```
-
-> 💡 All three do the same thing. Arrow functions are the most popular today 😊.
+>[!tip]
+> 1. `function` keyword 
+> 2. `function` and `const` keywords
+> 3. `const` keyword
 
 ---
 
-## Parameters & Arguments
+## 📥 Parameters & Arguments
 
-**Parameter** = the placeholder (in the definition)  
-**Argument** = the real value (when you call it)
-
+**Parameter** = the placeholder in the definition of the function  
+**Argument** = the real value passed into the function when you call it  
+#### Example
 ```javascript
 //                👇 parameters
 function add(num1, num2) {
@@ -70,15 +62,15 @@ function add(num1, num2) {
 
 //     👇 arguments
 add(10, 5); // 15
-add(3, 7);  // 10
+add(x, y);  // x + y
 ```
 
 ---
 
-## Return — Getting a Value Back
+## ↩️ Return statement
 
-Use `return` when you want the function to **give you a result**.
-
+Use `return` when you want the function to **give you a result**.  
+#### Example  
 ```javascript
 function multiply(a, b) {
   return a * b;
@@ -88,12 +80,14 @@ const answer = multiply(4, 5);
 console.log(answer); // 20
 ```
 
-> ⚠️ After `return`, the function **stops**. Nothing below it runs.
-
+>[!important]
+> After `return`, the function **stops**. Nothing below it runs.  
+#### Example
 ```javascript
 function check(age) {
   if (age >= 18) return "Adult";
-  return "Minor"; // only runs if age < 18
+  return "Minor";
+  console.log("Thank you!"); // Never executes
 }
 
 console.log(check(20)); // Adult
@@ -102,84 +96,59 @@ console.log(check(15)); // Minor
 
 ---
 
-## Default Parameters
-
-Set a **backup value** in case nothing is passed.
-
+## 🏷️ Default Parameters
+Default parameters are set to maintain the function flow incase of no arguemnets being passed in the function call.  
+#### Example
 ```javascript
-function welcome(name = "Guest") {
+function welcome(name = "Guest") { // Take value of name as "Guest" whenever no arguements in function call 
   console.log("Welcome, " + name + "!");
 }
 
 welcome("Priya"); // Welcome, Priya!
+// When no arguements are passed
 welcome();         // Welcome, Guest!
 ```
 
 ---
 
-## Scope — Where Can You Use a Variable?
+## 🚧 Variable scope
 
-Variables inside a function **stay inside** — they can't be used outside.
-
+Scope of a variable is the region of the code where it is accessible.  
+When variables are declared inside a function, they are called as local variables (function variables) and cannot be accessed outside of the function.  
+#### Example
 ```javascript
 function myFunc() {
   const secret = "I'm inside!";
-  console.log(secret); // ✅ Works
+  console.log(secret); // Works
 }
 
 myFunc();
-console.log(secret); // ❌ ERROR — secret doesn't exist here
+console.log(secret); // secret doesn't exist here
 ```
 
 ---
 
-## Common Mistakes ⚠️
-
-```javascript
-// ❌ Forgetting () when calling
-sayHi;   // Does nothing
-sayHi(); // ✅ This works
-
-// ❌ Forgetting return
-function square(n) {
-  n * n; // result is thrown away!
+## 🔁 Callbacks
+Function callback is used when you want some set of functions to be executed in order without fail.  
+#### Example
+```js
+const sum = (callback, x, y) => {
+  let result = 0;  
+  setTimeout(() => { result = x + y: }, 3000); // wait for 3s (3000 ms) and then execute { result = x + y; }
+  callback(result);
+}
+const display(result){
+  console.log(result);
 }
 
-function square(n) {
-  return n * n; // ✅ Now it works
-}
+// You want the functions to execute in the order sum() --> display() strictly
+// Hence send display as a callback into sum() asking it to execute display() once itself is completely executed.
 
-// ❌ Using a variable outside its scope
-function test() {
-  const x = 10;
-}
-console.log(x); // ❌ ERROR
-```
+sum(display, 12, 18); // 18
 
----
+// No need to write display function separately.
 
-## Quick Cheatsheet 📋
-
-```javascript
-// Declaration
-function name(param) { return value; }
-
-// Expression
-const name = function(param) { return value; };
-
-// Arrow
-const name = (param) => value;
-
-// Default param
-function name(param = "default") { }
-
-// Multiple params
-function add(a, b) { return a + b; }
-```
-
----
-
-> **Remember:** Write once, use many times. That's the power of functions! 💪😀
+````
 
 <a href="operators.md">previous</a>
 <p align=right><a href="controlstatements.md">next</a></p>
