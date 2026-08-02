@@ -69,6 +69,7 @@ console.log("java".lastIndexof("a")); // 3
 ````
 
 7. slice() - used to extract part of the string
+```js
 console.log("Javascript".slice(4)); // from the 4th till last index --> "script"
 console.log("Javascript".slice(0,4)); // from 0th to 4 -1 = 3rd index --> "Java"
 console.log("Javascript".slice(-6)); // last 6 characters --> "script"
@@ -125,3 +126,7 @@ console.log("abc123".match(/\d+/)); // "123"
 ```js
 console.log("hello123".search("/\d/")); // 5
 ````
+
+<br>
+<a href="Math_object.md">previous</a>
+<p align=right><a href="array.md">next</a></p>
