@@ -52,4 +52,4 @@ console.log(Math.sign(9)) // 1
 
 <br>
 <a href="object.md">previous</a>
-<p align=right><a href="array.md">next</a></p>
+<p align=right><a href="strings.md">next</a></p>
