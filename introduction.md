@@ -7,7 +7,7 @@
 |Datatypes|[Learn](datatype.md)|
 |Objects|[Learn](object.md)|
 |Math Object|[Learn](Math_object.md)|
-|Strings|[Learn](string.md)|
+|Strings|[Learn](strings.md)|
 |Arrays|[Learn](array.md)|
 |Operators|[Learn](operators.md)|
 |Functions|[Learn](function.md)|
