@@ -12,6 +12,12 @@
 |Operators|[Learn](operators.md)|
 |Functions|[Learn](function.md)|
 |Control statements|[Learn](controlstatements.md)|
+|DOM||
+|Events||
+|Array Methods||
+|JSON||
+|Async JS||
+|Promises||
 
 >[!note]
 > #### I am still learning; sorry if u dont see some topics🥀
