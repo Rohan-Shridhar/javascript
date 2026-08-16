@@ -77,4 +77,4 @@ let finalsum = prices
 ````
 <br>
 <a href="Math_object.md">previous</a>
-<p align=right><a href="operators.md">next</a></p>
+<p align=right><a href="setsmapsdates.md">next</a></p>
