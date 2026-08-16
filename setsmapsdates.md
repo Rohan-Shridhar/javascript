@@ -99,3 +99,6 @@ than new Date().getTime().
 where you are, and despite ISO 8601 specifying Monday as the first
 day of the week).
 
+<br>
+<a href="array.md">previous</a>
+<p align=right><a href="operators.md">next</a></p>
