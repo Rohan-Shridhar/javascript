@@ -9,6 +9,7 @@
 |Math Object|[Learn](Math_object.md)|
 |Strings|[Learn](strings.md)|
 |Arrays|[Learn](array.md)|
+|Sets, Maps, Dates|[Learn](setsmapsdates.md)|
 |Operators|[Learn](operators.md)|
 |Functions|[Learn](function.md)|
 |Control statements|[Learn](controlstatements.md)|
