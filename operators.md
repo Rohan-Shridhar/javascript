@@ -80,5 +80,5 @@ _variable_ **=** _condition_ **?** _value_if_true_ **:** _value_if_false_
 ```js
 isAdult = (age >= 18) ? "Yes" : "No" ;
 ````
-<a href="array.md">previous</a>
+<a href="setsmapsdates.md">previous</a>
 <p align=right><a href="function.md">next</a></p>
