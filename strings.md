@@ -14,11 +14,31 @@ For creating a string, `new String("Hello")` is rarely used, primitive and simpl
 ```js
 let message = "Hi";
 ````
+### 🔒 String Immutability
 
-## 📞 Accessing characters
+Strings are immutable, meaning their characters cannot be changed directly after creation.
 
-Characters of a string are accessed in the same way as array elements are accessed, i.e., is str = "Hello", str[0] is "H".  
-However `String.at(index)` function is also used... str.at(-1) will return the last character. 
+```js
+let str = "Hello";
+str[0] = "Y";
+
+console.log(str); // "Hello"
+```
+String methods return new strings instead of modifying the original string.
+
+## 📞 Accessing Characters
+
+Characters can be accessed using square bracket notation or the `at()` method. Indexing starts from `0`.
+
+```js
+let str = "Hello";
+
+console.log(str[0]);   // "H"
+console.log(str.at(0));  // "H"
+console.log(str.at(-1)); // "o" (last character)
+```
+> [!note]
+> Negative indices work with at(), but not with square bracket notation.
 
 ## String properties
 
@@ -75,26 +95,31 @@ console.log("Javascript".slice(0,4)); // from 0th to 4 -1 = 3rd index --> "Java"
 console.log("Javascript".slice(-6)); // last 6 characters --> "script"
 ````
 
-8. substring - similar to slice but has two non negative integer inputs
-```js
-console.log("Javascript".substring(0,4)); // "Java"
-````
+8. `substring()` - extracts a part of a string using start and end indices. The end index is excluded.
 
-9. replace and replaceAll - used to substitute parts of the string with replacement
 ```js
-console.log("ha ha ha".replace("ha","hi"); // "hi ha ha"
-console.log("ha ha ha".replaceAll("ha","hi"); // "hi hi hi"
-````
+console.log("Javascript".substring(0, 4)); // "Java"
+console.log("Javascript".substring(4));    // "script"
+```
+
+> [!note]
+> Unlike slice(), substring() treats negative indices as 0 and swaps the arguments if the start index is greater than the end index.
+
+// 9. replace() and replaceAll() - used to substitute parts of the string with replacement
+```js
+console.log("ha ha ha".replace("ha", "hi"));    // "hi ha ha"
+console.log("ha ha ha".replaceAll("ha", "hi")); // "hi hi hi"
+```
 
 10. split(`delimiter`) - used to convert string into and array
 ```js
 console.log("apples,mangoes,bananas".split(",")); // ["apples","mangoes","bananas"]
 ````
 
-11. concat() - to attach a string in the end
+// 11. concat() - to attach a string in the end
 ```js
-console.log("Merry".concat(" and ","James"); // Merry and James
-````
+console.log("Merry".concat(" and ", "James")); // "Merry and James"
+```
 
 12. repeat() - used to repeat a string for a number of times
 ```js
@@ -106,10 +131,10 @@ console.log("*".repeat(3)); // "***"
 console.log("Javascript".charAt(2)); // "v"
 ````
 
-14. charCodeAt() - returns the ASCII value of the characte at the index  
+// 14. charCodeAt()  - returns the ASCII value of the characte at the index  
 ```js
 console.log("A".charCodeAt(0)); // 65
-````
+```
 
 15. padStart() and padEnd() - pad the string to the spefic length by contcatinating the given character to the start or the end  
 ```js
@@ -122,11 +147,16 @@ console.log("5".padEnd(3,"0")); // "500"
 console.log("abc123".match(/\d+/)); // "123"
 ````
 
-17. search() - finds the index of the substring
+// 17. search() - finds the index of the substring
 ```js
-console.log("hello123".search("/\d/")); // 5
-````
-
+console.log("hello123".search(/\d/)); // 5
+```
+> [!note]
+> `String("Hello")` returns a primitive string, whereas `new String("Hello")` creates a String object. Prefer primitive strings.
+>  ```js
+> console.log(typeof String("Hello"));     // "string"
+> console.log(typeof new String("Hello")); // "object"
+> ```
 <br>
 <a href="Math_object.md">previous</a>
 <p align=right><a href="array.md">next</a></p>
