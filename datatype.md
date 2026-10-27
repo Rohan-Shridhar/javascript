@@ -34,7 +34,45 @@ data = true;        // data is now a Boolean
 |-|-|-|
 |Object|A collection of properties|`{ name: "John", age: 30 }`|
 |Array|A list of values|`[1,2,3]`|
-|Function|A block of code||
+|Function|A block of code|`() => {console.log("Hello Javascript")}`|
+
+### ⚖️ Primitive vs Reference Types
+
+The main difference is how values are copied during assignment.
+
+| Feature | Primitive Types | Reference Types |
+|---|---|---|
+| Assignment | Copies the value | Copies the reference |
+| Changes | Independent values | Variables can refer to the same object |
+| Examples | `Number`, `String`, `Boolean` | `Object`, `Array`, `Function` |
+
+#### Primitive — Copy by Value
+```js
+let a = 10;
+let b = a;
+b = 20;
+
+console.log(a); // 10
+console.log(b); // 20
+````
+
+#### Reference — Shared Object
+
+```js
+let a = { score: 10 };
+let b = a;
+b.score = 20;
+
+console.log(a.score); // 20
+console.log(b.score); // 20
+```
+
+Both variables refer to the same object, so modifying its properties through one variable affects the other.
+
+> [!note]  
+>
+> JavaScript technically copies all assigned values. For objects, the copied value is a reference to the same object.
+
 
 ## 🔀 Type conversion
  Explicitly convert varaible from one datatype to another.  
