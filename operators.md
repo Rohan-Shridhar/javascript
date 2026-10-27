@@ -8,9 +8,10 @@ Consider `y = 5`
 |-|x = y - 2|3|Subtraction|
 |*|x = y * 2|10|Multiplication|
 |/|x = y / 2|2.5|Division|
-|%|x = y % 2|1|Modulo|
-|++|x = ++y|6|Increement|
-|--|x = --y|4|Decreement|
+|%|x = y % 2|1|Remainder (Modulo)|
+|**|x = y ** 2|25|Exponentiation|
+|++|x = ++y|6|Pre-increment|
+|--|x = --y|4|Pre-decrement|
 ## 🟰 Assignment operators
 Consider `x = 10 y = 5`
 |Operator|Example|Result|Description|
@@ -21,9 +22,14 @@ Consider `x = 10 y = 5`
 |*=|x *= y|50|x=x*y |
 |/=|x /= y|2|x=x/y|
 |%=|x %= y|0|x=x%y|
+|**|x **= y|100000|x = x ** y|
 
 ### ➕ operator logic
-The + operator can also be used to add string variables or text values together.  
+The `+` operator performs either addition or string concatenation.
+
+- If string concatenation is triggered, values are converted to strings.
+- Otherwise, values are converted to primitives, then numeric addition is performed.
+- Objects and arrays are converted to primitive values when necessary.
 ```js
 txt1="What a very "; 
 txt2="nice day"; 
@@ -41,13 +47,13 @@ With mixed data types, the + operator causes JavaScript to run through a set seq
 
 #### Illustraction of + operator
 ```js
-[] + 1 --> "" + 1 --> "" + "1" --> "1"
-"Hi" + 1 --> "Hi" + "1" --> "Hi1"
-true + false --> 1 + 0 --> 1
-true + "1" --> "true" + "1" --> "true1"
-true + 1 --> 1 + 1 --> 2
-null + 1 --> 0 + 1 --> 1
-undefined + 1 --> NaN
+[] + 1          // "1"
+"Hi" + 1        // "Hi1"
+true + false    // 1
+true + "1"      // "true1"
+true + 1        // 2
+null + 1        // 1
+undefined + 1   // NaN
 ````
 > [!note]
 > Other arithmetic operators try to convert all other types into numeric. Ex: "5" - 5 --> 0
@@ -59,6 +65,7 @@ undefined + 1 --> NaN
 |==|equal to|true == 1|true|
 |===|exactly equal to|true === 1|false|
 |!=|not equal to|true != 1|false|
+|!==|Strictly not equal to|true !== 1|true|
 |<|Less than|1 < 3|true|
 |>|Greater than|4 > 5|false|
 |<=|Less than or equal to|1 <= 1|true|
@@ -71,7 +78,13 @@ undefined + 1 --> NaN
 |AND &&|True if all conditions are true|(x == 3)&&(y > 0)|
 |OR \|\||True if any one of all conditions is true|(x == 3)\|\|(y > 0)|
 |NOT !|Toggles the condition result|!(x == 3)|
-<br>
+> [!note]
+> Logical operators can return actual values, not just `true` or `false`.
+> ```js
+> "Hello" && 5  // 5
+> "" || "Hi"    // "Hi"
+> !0            // true
+> ```
 
 ## ❓Conditional operator
 Syntax:\
