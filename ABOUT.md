@@ -35,5 +35,7 @@ Basics of javascript like variables, operators, functions etc that are needed as
 
 #### ⓘ This repository is licensed under [MIT License](LICENSE)
 <p align=center>
-  <a href="introduction.md">Start Learning --></a>
+  <a href="introduction.md">
+    <img width="100" alt="image" src="https://github.com/user-attachments/assets/15046db4-68aa-4c6c-ad1a-18c6f38e16eb" />
+  </a>
 </p>
