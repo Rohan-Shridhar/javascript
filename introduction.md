@@ -1,5 +1,8 @@
 # Introduction
-## Javascript is a scripting language of the web designed to add interactivity and functionality to html pages
+> ### *The web is more than just text and images, it's interactive!*
+> ### *From responsive buttons to dynamic applications, JavaScript brings websites to life.*
+>
+> ### *Alongside HTML and CSS, JavaScript is one of the core technologies of web development, with tools like Node.js taking it beyond the browser.*
 ### Topics:
 |Lesson|Link|
 |-|-|
